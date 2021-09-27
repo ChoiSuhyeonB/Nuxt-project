@@ -44,7 +44,7 @@ export default {
         const parsed = cookieparser.parse(req.headers.cookie);
 
         auth = parsed.auth;
-        console.log(auth);
+        // console.log(auth);
       }
       commit("setAuth", auth);
     }
